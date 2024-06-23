@@ -1,0 +1,98 @@
+body {
+  background: rgb(241, 240, 241);
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+}
+.todo-main {
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-container {
+  background: rgb(224, 219, 224);
+  border-radius: 8px;
+  margin-top: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.todo-title {
+  display: flex;
+  flex-direction: row;
+}
+.todo-title img {
+  border-radius: 20%;
+  margin-top: 22px;
+  margin-right: 10px;
+}
+.todo-input {
+  margin: 20px;
+
+  padding-left: 20px;
+}
+.todo-input input {
+  font-size: 18px;
+  border-radius: 6px;
+
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(88, 18, 113);
+  outline: none;
+}
+.todo-input button {
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 6px;
+  background:none;
+  color:  #630476;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+ul {
+  border-radius: 10px;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 3%;
+  width: 450px;
+}
+li {
+  border-radius: 6px;
+  background: rgb(197, 171, 197);
+  height: 60px;
+  margin: 20px;
+  margin-right: 20px;
+  border: 1px solid rgb(99, 62, 106);
+  font-weight: bold;
+}
+.edit-btn {
+  font-size: 18px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #630476;
+  border-radius: 6px;
+  padding: 3px;
+  cursor: pointer;
+}
+.delete-btn {
+  font-size: 18px;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #8f0202;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+.Lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 15px;
+}
